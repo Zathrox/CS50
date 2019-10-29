@@ -529,3 +529,8 @@ git push -u origin master
 cd ..
 git init
 git remote add origin https://github.com/Zathrox/CS50.git
+git add .
+git commit -m "all problem set submissions up to week 7"
+git push origin master
+git -f push origin master
+git push -f origin master
