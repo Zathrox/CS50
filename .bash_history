@@ -534,3 +534,7 @@ git commit -m "all problem set submissions up to week 7"
 git push origin master
 git -f push origin master
 git push -f origin master
+git add .
+git commit -m "adding gitignore test"
+git push origin master
+git push -f origin master
