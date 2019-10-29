@@ -538,3 +538,8 @@ git add .
 git commit -m "adding gitignore test"
 git push origin master
 git push -f origin master
+git add .
+git commit -m "adding gitignore test2"
+git push -f origin master
+git rm --cached .c9/
+git commit -m "adding gitignore test3"
