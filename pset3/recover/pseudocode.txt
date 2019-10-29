@@ -1,0 +1,9 @@
+Read Infile
+Store 512 bytes as buffer(array) iteratively, until end of file EOF
+read first 4 bytes in buffer
+if (buffer[0,1,2 & 3] match provided signatures)
+    proceed to write file
+
+write the file
+###.jpg
+with ### as counter++ for each successful write
