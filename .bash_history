@@ -543,3 +543,12 @@ git commit -m "adding gitignore test2"
 git push -f origin master
 git rm --cached .c9/
 git commit -m "adding gitignore test3"
+git add .
+git commit -m "adding gitignore test3"
+git push -f origin master
+git rm --cached
+git rm --cached
+git rm --cached .config/
+git rm --cached -f
+git rm if --cached
+git rm -f --cached
